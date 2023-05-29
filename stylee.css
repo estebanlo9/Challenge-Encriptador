@@ -1,0 +1,127 @@
+*{
+    background: #E5E5E5;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+.logo{
+    padding: 10px;
+    margin-left: 70px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    justify-content: center;
+}
+/*sdasdasdasdasdasdasdasdasdasdasdasdasddsasdassadsdasdadas*/
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    margin: 50px;
+}
+.input{
+    background: #cfcfcf;
+    border-radius: 18px;
+    padding: 1em;
+    box-shadow: -3px 14px 35px 0px rgba(199,199,199,0.79);
+}
+.text-input{
+    background: #cfcfcf;
+    display: block;
+    border: none;
+    resize: none;
+}
+::placeholder{
+    color: #0A3871;
+    text-align: center;
+    font-weight: 600;
+}
+.text-input:focus{
+    outline: none;
+}
+.informacion{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.informacion img{
+    width: 20px;
+    height: 20px;
+    margin: auto 5px;
+}
+.texto-inf{
+    font-size: 0.5em;    
+    display: inline;
+    background: transparent;
+}
+.btn-encriptar, .btn-desencriptar{
+    border: none;
+    background-color: #0A3871;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 13px;
+    box-shadow: -3px 14px 35px 0px rgba(199,199,199,0.79);
+}
+.btn-desencriptar{
+    background-color: #134a8d;
+}
+.menu-output{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    margin:50px;
+
+
+}
+.output{
+    background: #cfcfcf;
+    border-radius: 18px;
+    padding: 1em;
+    box-shadow: -3px 14px 35px 0px rgba(199,199,199,0.79);
+}
+.text-output{
+    background: #cfcfcf;
+    display: block;
+    border: none;
+    resize: none;
+    background-image: url(sources/images/Muñeco.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.text-output:focus{
+    outline: none;
+}
+.copiar{
+    margin-top: 58px;
+    background-color: transparent;
+}
+.btn-copiar{
+    border: none;
+    background-color: #0A3871;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 13px;
+    box-shadow: -3px 14px 35px 0px rgba(199,199,199,0.79);
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.creador{
+    display:inline;
+    font-size: 20px;
+    text-align: center;
+    color: #0A3871;
+    border: 2px solid #0A3871;
+    padding: 7px;
+    border-radius: 7px;
+}
